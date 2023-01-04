@@ -1,0 +1,166 @@
+C:\Users\25747\AppData\Local\Programs\Python\Python37\python.exe C:/Users/25747/PycharmProjects/LeNet5/main.py
+Loading MNIST data from files...
+Load images from dataset\train-images.idx3-ubyte, number: 60000, data shape: (60000, 28, 28)
+Load images from dataset\train-labels.idx1-ubyte, number: 60000, data shape: (60000,)
+Load images from dataset\t10k-images.idx3-ubyte, number: 10000, data shape: (10000, 28, 28)
+Load images from dataset\t10k-labels.idx1-ubyte, number: 10000, data shape: (10000,)
+Got data...
+
+Normalization and padding...
+The shape of training image with padding:  (60000, 32, 32, 1)
+The shape of testing image with padding:  (10000, 32, 32, 1)
+Finish data processing...
+
+Start training...
+----------------------------------- epo 1 begin -----------------------------------
+Global learning rate: 0.05
+Learning rates in layers: [9.18168269e-06 1.76200380e-05 2.97190907e-05 3.26439684e-05]
+Batch size: 256
+Cost of epo 1 : 695576.8568173992                                              
+error number sum of training set: 4634 / 60000
+Time used:  415.02471351623535 second
+----------------------------------- epo 1 end -------------------------------------
+
+----------------------------------- epo 2 begin -----------------------------------
+Global learning rate: 0.05
+Learning rates in layers: [1.17360006e-04 3.41528652e-05 1.66148146e-05 5.43838522e-06]
+Batch size: 256
+Cost of epo 2 : 247200.80481367328                                              
+error number sum of training set: 2460 / 60000
+Time used:  418.8085300922394 second
+----------------------------------- epo 2 end -------------------------------------
+
+----------------------------------- epo 3 begin -----------------------------------
+Global learning rate: 0.02
+Learning rates in layers: [2.65798873e-04 1.85970176e-05 8.98026918e-06 1.51350885e-06]
+Batch size: 256
+Cost of epo 3 : 160291.20272993896                                              
+error number sum of training set: 1743 / 60000
+Time used:  414.7109627723694 second
+----------------------------------- epo 3 end -------------------------------------
+
+----------------------------------- epo 4 begin -----------------------------------
+Global learning rate: 0.02
+Learning rates in layers: [6.56485707e-04 2.09346241e-05 1.10642325e-05 1.43770807e-06]
+Batch size: 256
+Cost of epo 4 : 131248.6746929756                                              
+error number sum of training set: 1406 / 60000
+Time used:  416.56928515434265 second
+----------------------------------- epo 4 end -------------------------------------
+
+----------------------------------- epo 5 begin -----------------------------------
+Global learning rate: 0.02
+Learning rates in layers: [1.15557342e-03 2.28659521e-05 1.16753470e-05 1.36240023e-06]
+Batch size: 256
+Cost of epo 5 : 113749.06146140274                                              
+error number sum of training set: 1220 / 60000
+Time used:  426.5279817581177 second
+----------------------------------- epo 5 end -------------------------------------
+
+----------------------------------- epo 6 begin -----------------------------------
+Global learning rate: 0.01
+Learning rates in layers: [9.25567128e-04 1.42852574e-05 7.02187708e-06 6.48318224e-07]
+Batch size: 256
+Cost of epo 6 : 96457.1047936216                                              
+error number sum of training set: 1090 / 60000
+Time used:  417.89875531196594 second
+----------------------------------- epo 6 end -------------------------------------
+
+----------------------------------- epo 7 begin -----------------------------------
+Global learning rate: 0.01
+Learning rates in layers: [1.21414561e-03 1.49349272e-05 7.15812027e-06 6.64901214e-07]
+Batch size: 256
+Cost of epo 7 : 90156.43151317013                                              
+error number sum of training set: 1032 / 60000
+Time used:  421.1464991569519 second
+----------------------------------- epo 7 end -------------------------------------
+
+----------------------------------- epo 8 begin -----------------------------------
+Global learning rate: 0.01
+Learning rates in layers: [1.52380377e-03 1.72568388e-05 8.09401211e-06 6.46670482e-07]
+Batch size: 256
+Cost of epo 8 : 84913.95680713434                                              
+error number sum of training set: 977 / 60000
+Time used:  416.79361033439636 second
+----------------------------------- epo 8 end -------------------------------------
+
+----------------------------------- epo 9 begin -----------------------------------
+Global learning rate: 0.005
+Learning rates in layers: [9.44711859e-04 8.90453766e-06 4.20798397e-06 3.23027180e-07]
+Batch size: 256
+Cost of epo 9 : 76487.10351026077                                              
+error number sum of training set: 904 / 60000
+Time used:  416.91573190689087 second
+----------------------------------- epo 9 end -------------------------------------
+
+----------------------------------- epo 10 begin -----------------------------------
+Global learning rate: 0.005
+Learning rates in layers: [1.00274399e-03 9.15126659e-06 4.45292401e-06 3.24119997e-07]
+Batch size: 256
+Cost of epo 10 : 73021.5579698083                                              
+error number sum of training set: 884 / 60000
+Time used:  414.49934911727905 second
+----------------------------------- epo 10 end -------------------------------------
+
+----------------------------------- epo 11 begin -----------------------------------
+Global learning rate: 0.005
+Learning rates in layers: [1.14450826e-03 9.47291599e-06 4.62680734e-06 3.22756021e-07]
+Batch size: 256
+Cost of epo 11 : 70538.38661425348                                              
+error number sum of training set: 884 / 60000
+Time used:  415.23195600509644 second
+----------------------------------- epo 11 end -------------------------------------
+
+----------------------------------- epo 12 begin -----------------------------------
+Global learning rate: 0.005
+Learning rates in layers: [1.08496029e-03 9.37755114e-06 4.43663299e-06 3.27909830e-07]
+Batch size: 256
+Cost of epo 12 : 68916.36088506822                                              
+error number sum of training set: 831 / 60000
+Time used:  417.35391426086426 second
+----------------------------------- epo 12 end -------------------------------------
+
+----------------------------------- epo 13 begin -----------------------------------
+Global learning rate: 0.001
+Learning rates in layers: [3.00769353e-04 2.09552487e-06 1.03535703e-06 6.44458228e-08]
+Batch size: 256
+Cost of epo 13 : 64059.97482415088                                              
+error number sum of training set: 772 / 60000
+Time used:  415.31020855903625 second
+----------------------------------- epo 13 end -------------------------------------
+
+----------------------------------- epo 14 begin -----------------------------------
+Global learning rate: 0.001
+Learning rates in layers: [2.70766566e-04 2.22522742e-06 1.04231387e-06 6.45055950e-08]
+Batch size: 256
+Cost of epo 14 : 62539.41752816466                                              
+error number sum of training set: 765 / 60000
+Time used:  420.30223536491394 second
+----------------------------------- epo 14 end -------------------------------------
+
+----------------------------------- epo 15 begin -----------------------------------
+Global learning rate: 0.001
+Learning rates in layers: [2.54643518e-04 2.08769753e-06 1.00059760e-06 6.38487122e-08]
+Batch size: 256
+Cost of epo 15 : 62056.35985518823                                              
+error number sum of training set: 772 / 60000
+Time used:  418.2652246952057 second
+----------------------------------- epo 15 end -------------------------------------
+
+----------------------------------- epo 16 begin -----------------------------------
+Global learning rate: 0.001
+Learning rates in layers: [2.45004419e-04 2.08575514e-06 9.99020653e-07 6.38026014e-08]
+Batch size: 256
+Cost of epo 16 : 61679.83564108807                                              
+error number sum of training set: 757 / 60000
+Time used:  425.18139576911926 second
+----------------------------------- epo 16 end -------------------------------------
+
+Finished training, the total training time is 6809.933736562729 second 
+
+Start testing...
+Error rate: 0.0138
+Finished testing, the accuracy is 0.9862 
+
+
+进程已结束，退出代码为 0
